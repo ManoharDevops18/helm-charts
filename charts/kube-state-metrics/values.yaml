@@ -52,7 +52,7 @@ extraArgs: []
 service:
   port: 8080
   # Default to clusterIP for backward compatibility
-  type: ClusterIP
+  type: NodePort
   nodePort: 0
   loadBalancerIP: ""
   # Only allow access to the loadBalancerIP from these IPs
